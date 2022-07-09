@@ -11,7 +11,7 @@ app.use(bodyParser.json({ limit: '30mb' }));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/admin', AdminRoute);
-app.use('/vendor', VandorRoute);
+app.use('/vandor', VandorRoute);
 
 // app.use('/', (req, res) => {
 //   return res.json('Hello World!');
