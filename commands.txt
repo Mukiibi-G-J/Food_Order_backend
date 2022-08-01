@@ -7,3 +7,10 @@ npm i jsonwebtoken @types/jsonwebtoken
 npm i @types/multer
 npm install class-transformer
 npm install class-validator
+npm install twilio
+https://damp-oasis-61328.herokuapp.com/ | https://git.heroku.com/damp-oasis-61328.git
+heroku login
+heroku create
+git push heroku
+https://food-online-production-backend.herokuapp.com/
+
