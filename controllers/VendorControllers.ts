@@ -142,7 +142,8 @@ export const UpdateVendorCoverImage = async (
       const files = req.files as [Express.Multer.File];
 
       const images = files.map((file: Express.Multer.File) => file.filename);
-
+      console.log('runing----------');
+      console.log(files);
       vendor.coverImages.push(...images);
 
       const saveResult = await vendor.save();

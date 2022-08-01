@@ -5,3 +5,5 @@ npm install @types/express @types/cors
 npm i bcrypt
 npm i jsonwebtoken @types/jsonwebtoken
 npm i @types/multer
+npm install class-transformer
+npm install class-validator
