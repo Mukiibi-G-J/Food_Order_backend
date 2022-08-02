@@ -40,6 +40,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var express_1 = __importDefault(require("express"));
+var config_1 = require("./config");
 var Database_1 = __importDefault(require("./services/Database"));
 var ExpressApp_1 = __importDefault(require("./services/ExpressApp"));
 var StartServer = function () { return __awaiter(void 0, void 0, void 0, function () {
@@ -54,8 +55,8 @@ var StartServer = function () { return __awaiter(void 0, void 0, void 0, functio
                 return [4 /*yield*/, (0, ExpressApp_1.default)(app)];
             case 2:
                 _a.sent();
-                app.listen(8000, function () {
-                    console.log('Server is running on port 8000');
+                app.listen(config_1.PORT, function () {
+                    console.log("Listening to port 8000 ".concat(config_1.PORT));
                 });
                 return [2 /*return*/];
         }
