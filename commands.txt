@@ -14,3 +14,7 @@ heroku create
 git push heroku
 https://food-online-production-backend.herokuapp.com/
 
+ "dev": "nodemon src/index.ts",
+    "start": "node src/index.ts",
+    // "build": "tsc -p .",
+    // "postinstall": "npm run build"
